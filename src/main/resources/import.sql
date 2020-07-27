@@ -1,0 +1,10 @@
+INSERT INTO products (name, price, create_at) VALUES('A7S III',35000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('T6i',11000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('BMPCC',20000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('BMPCC 4k',30000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('BMPCC 6k',65000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('Weebil Lab',10000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('BM Color Controller',15000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('GX7',75000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('GH5',55000, NOW());
+INSERT INTO products (name, price, create_at) VALUES('Arri Alexa',125000, NOW());
