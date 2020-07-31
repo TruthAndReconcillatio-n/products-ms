@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 import lombok.Data;
 
@@ -27,6 +28,9 @@ public class Product implements Serializable{
 
 	private String name;
 	private Double price;
+	
+	@Transient
+	private Integer port;
 	
 	@Column(name =  "create_at")
 	@Temporal(TemporalType.DATE)
