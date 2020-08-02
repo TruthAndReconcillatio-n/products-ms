@@ -1,8 +1,8 @@
 package com.fca.dev.springboot.app.products.models.service;
 
 import java.util.List;
+import com.fca.dev.springboot.app.commons.models.entity.Product;
 
-import com.fca.dev.springboot.app.products.models.entity.Product;
 
 public interface IProductService {
 
